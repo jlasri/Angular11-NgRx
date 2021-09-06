@@ -5,23 +5,23 @@ import { ProductsState } from 'src/app/ngrx/ngrxModels/product-state';
 import { ProductsStateEnum } from 'src/app/ngrx/ngrxModels/product-state-enum';
 
 @Component({
-  selector: 'app-products',
-  templateUrl: './products.component.html',
-  styleUrls: ['./products.component.css']
+  selector: 'app-products-list',
+  templateUrl: './products-list.component.html',
+  styleUrls: ['./products-list.component.css']
 })
-export class ProductsComponent implements OnInit {
+export class ProductsListComponent implements OnInit {
 
   productsState$?: Observable<ProductsState>;
 
   readonly productStateEnum = ProductsStateEnum;
 
-  constructor(private store: Store<any>) { }
+  constructor(private store: Store) { }
 
   ngOnInit(): void {
     this.productsState$ = this.store
                                 .pipe(
-                                  map((state) => state.catalogState)
+                                  map((state: any) => state.catalogState)
                                 );
   }
-
+  
 }

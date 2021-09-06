@@ -1,7 +1,52 @@
 {
   "products": [
-    {"id": 1,"name": "Computer","price": 60000,"quantity": 12,"selected": true,"available": true},
-    {"id": 2,"name": "Printer","price": 1200,"quantity": 10,"selected": true,"available": false},
-    {"id": 3,"name": "Smartphone","price": 2000,"quantity": 32,"selected": false,"available": true}
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 60000,
+      "quantity": "27",
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": "799",
+      "quantity": "59",
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "IPad",
+      "price": "459",
+      "quantity": "99",
+      "selected": true,
+      "available": false
+    },
+    {
+      "name": "IPhone 12",
+      "price": "1099",
+      "quantity": "59",
+      "selected": false,
+      "available": true,
+      "id": 4
+    },
+    {
+      "name": "Samsung S21 Ultra",
+      "price": "1299",
+      "quantity": "65",
+      "selected": true,
+      "available": true,
+      "id": 5
+    },
+    {
+      "name": "Induction Charger",
+      "price": "59",
+      "quantity": "36",
+      "selected": false,
+      "available": true,
+      "id": 6
+    }
   ]
 }
