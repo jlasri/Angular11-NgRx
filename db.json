@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Computer",
+      "name": "Computer005",
       "price": 60000,
       "quantity": "27",
       "selected": true,
@@ -47,6 +47,14 @@
       "selected": false,
       "available": true,
       "id": 6
+    },
+    {
+      "name": "test",
+      "price": "50",
+      "quantity": "5",
+      "selected": false,
+      "available": true,
+      "id": 7
     }
   ]
 }
